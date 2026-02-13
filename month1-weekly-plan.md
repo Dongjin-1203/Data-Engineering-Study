@@ -8,21 +8,21 @@
 
 ## 📅 Week 1: Airflow 환경 구축 & 기본 개념
 
-### 월요일 (3시간)
+### 월요일 (3시간)(26.02.10 완료)
 **주제**: Airflow 개요 및 환경 설정
-- [ ] Airflow 공식 문서 읽기 (1시간)
+- [x] Airflow 공식 문서 읽기 (1시간)
   - 핵심 개념: DAG, Operator, Task, Executor
   - https://airflow.apache.org/docs/apache-airflow/stable/concepts/index.html
-- [ ] Docker로 Airflow 로컬 환경 구축 (2시간)
+- [x] Docker로 Airflow 로컬 환경 구축 (2시간)
   - `docker-compose.yaml` 설정
   - Airflow UI 접속 및 탐색
   - 참고: https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html
 
-### 화요일 (4시간)
+### 화요일 (4시간)(26.02.13 완료)
 **주제**: 첫 번째 DAG 작성
-- [ ] 기본 DAG 구조 이해 (1시간)
+- [x] 기본 DAG 구조 이해 (1시간)
   - DAG 파라미터: `start_date`, `schedule_interval`, `catchup`
-- [ ] PythonOperator로 간단한 DAG 작성 (2시간)
+- [x] PythonOperator로 간단한 DAG 작성 (2시간)
   - 예제: Hello World DAG
   - Task 간 의존성 설정 (`>>` 연산자)
 - [ ] DAG 실행 및 로그 확인 (1시간)
