@@ -14,7 +14,7 @@ with DAG(
         "retry_delay": timedelta(seconds=5),
     },
     description="DAG Hello World 예제", 
-    schedule=timedelta(days=1),      
+    schedule="@daily",      
     start_date=datetime(2026, 1, 1), 
     catchup=False,   
     tags=["task_hi"],
